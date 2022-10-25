@@ -631,31 +631,6 @@ video {
   margin-right: 1rem;
 }
 
-.-my-10 {
-  margin-top: -2.5rem;
-  margin-bottom: -2.5rem;
-}
-
-.-my-0 {
-  margin-top: -0px;
-  margin-bottom: -0px;
-}
-
-.-my-20 {
-  margin-top: -5rem;
-  margin-bottom: -5rem;
-}
-
-.my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -664,12 +639,12 @@ video {
   margin-left: 0.75rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mr-10 {
@@ -690,10 +665,6 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .inline-block {
@@ -970,6 +941,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -983,11 +959,6 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-3xl {
@@ -1043,6 +1014,8 @@ video {
 
 header {
   background-image: url(../img/hero-background.png);
+  width: 100%;
+  height: auto;
 }
 
 .hover\:border-2:hover {
@@ -1090,16 +1063,6 @@ header {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .md\:my-0 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .md\:-my-10 {
-    margin-top: -2.5rem;
-    margin-bottom: -2.5rem;
   }
 
   .md\:ml-0 {
