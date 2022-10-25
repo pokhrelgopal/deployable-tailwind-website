@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+body {
+    background-image: url(../img/hero-background.png);
+    background-repeat: no-repeat;
+}
