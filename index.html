@@ -13,59 +13,65 @@
 
     <body class="bg-slate-100">
         <!-- Navbar Section -->
-        <nav class="relative container mx-auto font-raleway p-4 flex-row
+        <header>
+            <nav class="relative container mx-auto font-raleway p-4 flex-row
             md:py-6">
-            <div class="flex items justify-between">
-                <div class="pt-2">
-                    <a href="#"><img src="img/logo.png" class="h-8" alt="" /></a>
-                </div>
-                <div class="hidden md:flex space-x-12 mt-2 text-lg">
-                    <!-- Menu Items -->
-                    <a href="#"><span class="hover:underline hover:underline-offset-4">How it works</span></a>
-                    <a href="#"><span class="hover:underline hover:underline-offset-4">Design ideas</span></a>
-                    <a href="#"><span class="hover:underline hover:underline-offset-4">Pricing</span></a>
-                    <a href="#"><span class="hover:underline hover:underline-offset-4">Review</span></a>
-                </div>
-                <div class="button">
-                    <button class="px-8 py-3 bg-blueColor text-white border-none
-                        font-raleway">
-                        Say Hi
-                    </button>
-                </div>
-            </div>
-        </nav>
+                <div class="flex items justify-between">
+                    <div class="pt-2">
+                        <a href="#"><img src="img/logo.png" class="h-8" alt="" /></a>
+                    </div>
+                    <div class="hidden md:flex space-x-12 mt-2 text-lg">
+                        <!-- Menu Items -->
+                        <a href="#"><span class="hover:underline hover:underline-offset-4">How it works</span></a>
+                        <a href="#"><span class="hover:underline hover:underline-offset-4">Design ideas</span></a>
+                        <a href="#"><span class="hover:underline hover:underline-offset-4">Pricing</span></a>
+                        <a href="#"><span class="hover:underline hover:underline-offset-4">Review</span></a>
+                    </div>
+                    <div class="button">
+                        <button class="hidden px-8 py-3 bg-blueColor text-white border-none
+                        font-raleway md:flex ">
+                            Say Hi
+                        </button>
+                        <div class="hamLeft md:hidden"><i
+                                class="fa fa-bars text-tealColor mt-2 font-light text-2xl"></i>
+                        </div>
+                        <div class="hidden hamRight md:hidden"><i
+                                class="fa fa-xmark text-tealColor font-light mt-2 text-2xl "></i>
+                        </div>
+                    </div>
+            </nav>
 
-        <!-- Hero Section -->
-        <section id="hero-section" class="container my-10 flex flex-col-reverse
+            <!-- Hero Section -->
+            <section id="hero-section" class="container my-10 flex flex-col-reverse
             mx-auto md:flex-row">
-            <div class="right ml-3 md:ml-0">
-                <h1 class="text-4xl font-arya font-bold md:my-12 md:text-6xl">Interior
-                    decoration partly thrives on
-                    being
-                    <span class="inline-block bg-tealColor rounded-full px-5
+                <div class="right ml-3 md:ml-0">
+                    <h1 class="text-4xl font-arya font-bold md:my-12 md:text-6xl">Interior
+                        decoration partly thrives on
+                        being
+                        <span class="inline-block bg-tealColor rounded-full px-5
                         mt-2 pb-3 text-white md:mt-4">social</span>
-                </h1>
-                <p class="font-raleway text-xl">An interior designer is someone
-                    who plans, researches, coordinates,
-                    and
-                    manages
-                    such enhancement
-                    projects</p>
-                <div class="button mt-10">
-                    <button class="px-5 py-3 bg-blueColor text-white text-xl
+                    </h1>
+                    <p class="font-raleway text-xl">An interior designer is someone
+                        who plans, researches, coordinates,
+                        and
+                        manages
+                        such enhancement
+                        projects</p>
+                    <div class="button my-10">
+                        <button class="px-5 py-3 bg-blueColor text-white text-xl
                         border-none font-raleway hover:border-2 hover:text-white
                         hover:bg-tealColor">
-                        Start Your Project
-                    </button>
+                            Start Your Project
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="inner-image md:my-10">
-                <div class="image">
-                    <img src="img/hero-side-image.png" alt="">
+                <div class="inner-image md:my-10">
+                    <div class="image">
+                        <img src="img/hero-side-image.png" alt="">
+                    </div>
                 </div>
-            </div>
-        </section>
-
+            </section>
+        </header>
         <section id="partners" class="container mx-auto my-10 p-2">
             <div class="flex flex-row mx-auto justify-between bg-white py-8 px-4
                 rounded-xl shadow-md">
@@ -375,6 +381,7 @@
                 </div>
             </div>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 
 </html>
